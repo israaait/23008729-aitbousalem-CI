@@ -1,0 +1,1 @@
+\# Environnements virtuels et caches Python \_\_pycache\_\_/ \*.py[cod] .venv/ env/ # Checkpoints Jupyter Notebook .ipynb\_checkpoints/ # Fichiers système et éditeurs (VS Code, PyCharm, Mac, Windows) .DS\_Store Thumbs.db .vscode/ .idea/ # Fichiers temporaires ou journaux \*.log \*.tmp
