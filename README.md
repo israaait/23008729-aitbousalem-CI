@@ -4,7 +4,9 @@
 ![Status](https://img.shields.io/badge/Status-En%20cours-orange)
 ## 🚀 Accéder au Notebook Google Colab
 
-[![Ouvrir dans Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/israaait/README.md/blob/main/notebooks/projet_CI01.ipynb)
+## 🚀 Accéder au Notebook Google Colab
+
+[![Ouvrir dans Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/israaait/23008729-aitbousalem-CI/blob/main/notebooks/projet_CI01.ipynb)
 ---
 
 ## 📌 Informations Générales
