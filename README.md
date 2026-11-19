@@ -1,2 +1,54 @@
 # 23008729-aitbousalem-CI
-\# Machine Learning &amp; Commerce International : Sujet CI01 ![Python Version]([suspicious link removed]) ![Status]([suspicious link removed]) ## 📌 Informations Générales - \*\*Nom &amp; Prénom :\*\* Israa Ait Bousalem - \*\*Code Apogée :\*\* 23008729 - \*\*Groupe :\*\* G1 - \*\*Établissement :\*\* ENCG Settat — S7 Commerce International - \*\*Sujet attribué :\*\* CI01 — Prévision des exportations marocaines par produit et destination - \*\*Dépôt GitHub :\*\* \`23008729-AitBousalem-G1\` --- ## 🎯 Problématique Économique &amp; Objectifs - \*\*Contexte :\*\* Le Maroc cherche à optimiser ses flux commerciaux et anticiper les recettes d'exportation vers ses principaux partenaires commerciaux. - \*\*Question de recherche :\*\* Comment anticiper avec précision la valeur mensuelle/annuelle des exportations marocaines selon la catégorie de produit (code SH) et le pays destinataire ? - \*\*Tâche ML :\*\* Régression quantitative. - \*\*Algorithme principal :\*\* Régression Ridge (Algorithme n°1 du cours). - \*\*Référence naïve (Baseline) :\*\* Persistance (valeur du flux à \\\\(t-1\\\\)) ou Moyenne historique. - \*\*Objectif mesurable :\*\* Obtenir une erreur quadratique moyenne (RMSE) inférieure d'au moins 15% à celle de la baseline naïve sur le jeu de test final. --- ## 📂 Structure du Dépôt \`\`\`text 23008729-AitBousalem-G1/ ├── README.md # Présentation du projet et guide de reproduction ├── requirements.txt # Dépendances Python requises ├── .gitignore # Fichiers ignorés par Git ├── DECLARATION\_IA.md # Transparence et intégrité académique ├── data/ │ └── raw/ # Données brutes (Office des Changes / UN Comtrade) ├── docs/ │ └── sujet\_CI01.md # Fiche sujet et consignes ├── notebooks/ │ └── projet\_CI01.ipynb # Notebook complet d'analyse et de modélisation ├── figures/ # Visualisations et graphiques exportés en couleur ├── rapport/ │ └── rapport.pdf # Compte rendu exporté en PDF ├── presentation/ │ ├── presentation.pdf # Support de présentation (exactement 6 diapositives) │ └── presentation.pptx # Fichier source de la présentation └── video/ └── demonstration.mp4 # Capture vidéo commentée (60 à 90 secondes)
+# Prévision des exportations marocaines par produit et destination
+
+## 1. Informations générales
+
+- **Étudiante :** Israa Ait Bousalem
+- **Code Apogée :** 23008729
+- **Groupe :** G1
+- **Établissement :** ENCG Settat
+- **Filière :** Commerce International – S7
+- **Sujet :** CI01 – Prévision des exportations marocaines
+
+## 2. Problématique
+
+Comment anticiper avec précision la valeur mensuelle des exportations marocaines selon la catégorie de produit (code SH) et le pays destinataire ?
+
+## 3. Objectifs du projet
+
+- Analyser l'évolution des exportations marocaines.
+- Étudier les variations selon les produits et les destinations.
+- Construire un modèle de prévision.
+- Comparer les performances du modèle avec une méthode de référence.
+
+## 4. Méthodologie Machine Learning
+
+- **Type de tâche :** Régression quantitative.
+- **Algorithme principal :** Ridge Regression (Algorithme 1).
+- **Référence :** Persistance ou moyenne historique.
+- **Métrique principale :** RMSE.
+- **Objectif :** Obtenir une RMSE inférieure d'au moins 15 % à celle de la baseline sur le jeu de test final.
+
+## 5. Structure du dépôt
+
+- `data/raw/` : Données brutes.
+- `docs/` : Documentation et consignes.
+- `figures/` : Graphiques et visualisations.
+- `notebooks/` : Notebook Jupyter.
+- `presentation/` : Présentation finale.
+- `rapport/` : Rapport PDF.
+- `video/` : Vidéo de présentation.
+
+## 6. Installation et reproduction
+
+Installer les dépendances :
+
+```bash
+pip install -r requirements.txt
+```
+
+Ouvrir `notebooks/projet_CI01.ipynb` et exécuter les cellules dans l'ordre.
+
+## 7. Déclaration d'utilisation de l'IA
+
+Consulter `DECLARATION_IA.md` pour les informations relatives à l'utilisation des outils d'intelligence artificielle.
