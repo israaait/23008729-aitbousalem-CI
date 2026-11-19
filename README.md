@@ -1,54 +1,80 @@
-# 23008729-aitbousalem-CI
-# Prévision des exportations marocaines par produit et destination
+# Machine Learning & Commerce International : Sujet CI01
 
-## 1. Informations générales
+![Python Version](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-En%20cours-orange)
+---
 
-- **Étudiante :** Israa Ait Bousalem
+## 📌 Informations Générales
+
+- **Nom & Prénom :** Israa Ait Bousalem
 - **Code Apogée :** 23008729
 - **Groupe :** G1
-- **Établissement :** ENCG Settat
-- **Filière :** Commerce International – S7
-- **Sujet :** CI01 – Prévision des exportations marocaines
+- **Établissement :** ENCG Settat — S7 Commerce International
+- **Sujet attribué :** CI01 — Prévision des exportations marocaines par produit et destination
+- **Dépôt GitHub :** `23008729-AitBousalem-G1`
 
-## 2. Problématique
+---
 
-Comment anticiper avec précision la valeur mensuelle des exportations marocaines selon la catégorie de produit (code SH) et le pays destinataire ?
+## 🎯 Problématique Économique & Objectifs
 
-## 3. Objectifs du projet
+- **Contexte :** Le Maroc cherche à optimiser ses flux commerciaux et anticiper les recettes d'exportation vers ses principaux partenaires commerciaux.
 
-- Analyser l'évolution des exportations marocaines.
-- Étudier les variations selon les produits et les destinations.
-- Construire un modèle de prévision.
-- Comparer les performances du modèle avec une méthode de référence.
+- **Question de recherche :** Comment anticiper avec précision la valeur mensuelle/annuelle des exportations marocaines selon la catégorie de produit (code SH) et le pays destinataire ?
 
-## 4. Méthodologie Machine Learning
+- **Tâche ML :** Régression quantitative.
 
-- **Type de tâche :** Régression quantitative.
-- **Algorithme principal :** Ridge Regression (Algorithme 1).
-- **Référence :** Persistance ou moyenne historique.
-- **Métrique principale :** RMSE.
-- **Objectif :** Obtenir une RMSE inférieure d'au moins 15 % à celle de la baseline sur le jeu de test final.
+- **Algorithme principal :** Régression Ridge (Algorithme n°1 du cours).
 
-## 5. Structure du dépôt
+- **Référence naïve (Baseline) :** Persistance (valeur du flux à \(t-1\)) ou Moyenne historique.
 
-- `data/raw/` : Données brutes.
-- `docs/` : Documentation et consignes.
-- `figures/` : Graphiques et visualisations.
-- `notebooks/` : Notebook Jupyter.
-- `presentation/` : Présentation finale.
-- `rapport/` : Rapport PDF.
-- `video/` : Vidéo de présentation.
+- **Objectif mesurable :** Obtenir une erreur quadratique moyenne (RMSE) inférieure d'au moins 15% à celle de la baseline naïve sur le jeu de test final.
 
-## 6. Installation et reproduction
+---
 
-Installer les dépendances :
+## 📂 Structure du Dépôt
 
-```bash
-pip install -r requirements.txt
+```text
+23008729-AitBousalem-G1/
+│
+├── README.md
+│   # Présentation du projet et guide de reproduction
+│
+├── requirements.txt
+│   # Dépendances Python requises
+│
+├── .gitignore
+│   # Fichiers ignorés par Git
+│
+├── DECLARATION_IA.md
+│   # Transparence et intégrité académique
+│
+├── data/
+│   └── raw/
+│       # Données brutes (Office des Changes / UN Comtrade)
+│
+├── docs/
+│   └── sujet_CI01.md
+│       # Fiche sujet et consignes
+│
+├── notebooks/
+│   └── projet_CI01.ipynb
+│       # Notebook complet d'analyse et de modélisation
+│
+├── figures/
+│   # Visualisations et graphiques exportés en couleur
+│
+├── rapport/
+│   └── rapport.pdf
+│       # Compte rendu exporté en PDF
+│
+├── presentation/
+│   ├── presentation.pdf
+│   │   # Support de présentation (exactement 6 diapositives)
+│   │
+│   └── presentation.pptx
+│       # Fichier source de la présentation
+│
+└── video/
+    └── demonstration.mp4
+        # Capture vidéo commentée (60 à 90 secondes)
 ```
-
-Ouvrir `notebooks/projet_CI01.ipynb` et exécuter les cellules dans l'ordre.
-
-## 7. Déclaration d'utilisation de l'IA
-
-Consulter `DECLARATION_IA.md` pour les informations relatives à l'utilisation des outils d'intelligence artificielle.
